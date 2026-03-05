@@ -10,7 +10,7 @@ from datetime import datetime
 EMAIL = os.environ.get("EMAIL")
 PASSWORD = os.environ.get("PASSWORD")
 GH_TOKEN = os.environ.get("GH_TOKEN")
-REPO = "LVT382009/zenix-afk"
+REPO = "mchost2009-hash/zenix-afk1"
 
 def push_stats(stats):
     try:
@@ -162,3 +162,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"❌ Lỗi: {e}")
         driver.quit()
+
